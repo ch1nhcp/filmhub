@@ -1,18 +1,25 @@
 const $template = document.createElement('template');
 $template.innerHTML = /*html*/`
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<div class="container-fluid">
-<div class="row bg-dark">
-    <div class="d-inline-flex justify-content-left">
-        <nav class="navbar navbar-expand-sm mt-2">
-            <a class="navbar-brand text-danger" href="#">Filmhub</a>
-        </nav>
-    </div>
-    <div class="d-inline-flex justify-content-end col mt-3">
-        <a class="navbar-brand text-white" href="#">Contact</a>
-        <a class="navbar-brand text-white" href="#">Đăng kí</a>
-        <a class="navbar-brand text-white" href="#">Đăng nhập</a>
-    </div>
+<link rel="stylesheet" href="../filmstation/components/menu.css">
+<!-- Component -->
+<div class="navbar-component">
+<!-- Class area is a container -->
+<div class="navbar area">
+  <!-- Logo -->
+  <a href="#" class="brand">Filmstation</a>
+  <!-- List of links -->
+  <nav role="navigation" id="navigation" class="list">
+    <a href="#" class="item -link">Sign in</a>
+    <a href="#" class="item -link">Sign up</a>
+    <a href="#" class="item -link">Book</a>
+    <a href="#" class="item -link">About us</a>
+    <span class="item"><i class="fa fa-search"></i></span>
+  </nav>
+  <!-- Button to toggle the display menu  -->
+  <button data-collapse data-target="#navigation" class="toggle">
+    <!-- Hamburger icon -->
+    <span class="icon"></span>
+  </button>
 </div>
 </div>
 `;
