@@ -10,8 +10,8 @@ $template.innerHTML = /*html*/`
     </div>
     <div class="d-inline-flex justify-content-end col mt-3">
         <a class="navbar-brand text-white" href="#">Contact</a>
-        <a class="navbar-brand text-white" href="../in">Đăng kí</a>
-        <a class="navbar-brand text-white" href="#">Đăng nhập</a>
+        <a class="navbar-brand text-white" href="./signIn/signUpsignIn.html">Đăng kí</a>
+        <a class="navbar-brand text-white" href="./signIn/signUpsignIn.html">Đăng nhập</a>
     </div>
 </div>
 </div>
