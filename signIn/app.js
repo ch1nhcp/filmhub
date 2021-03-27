@@ -1,3 +1,3 @@
-import InputWrapper from "../signIn/InputWrapper.js";
-
+import InputWrapper from "./InputWrapper.js"
+import signUp from "./signUp.js"
 
