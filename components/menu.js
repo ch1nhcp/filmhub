@@ -6,7 +6,7 @@ $template.innerHTML = /*html*/`
 <!-- Class area is a container -->
 <div class="navbar area">
   <!-- Logo -->
-  <a href="#" class="brand">Filmstation</a>
+  <a href="#" class="brand"><img src="img/logo.png"></a>
   <!-- List of links -->
   <nav role="navigation" id="navigation" class="list">
     <a href="#" class="item -link">Trending</a>
