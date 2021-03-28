@@ -1,6 +1,6 @@
 const $template = document.createElement('template');
 $template.innerHTML = /*html*/`
-<link rel="stylesheet" href="../filmstation/components/menu.css">
+<link rel="stylesheet" href="./components/menu.css">
 <!-- Component -->
 <div class="navbar-component">
 <!-- Class area is a container -->
@@ -9,10 +9,10 @@ $template.innerHTML = /*html*/`
   <a href="#" class="brand">Filmstation</a>
   <!-- List of links -->
   <nav role="navigation" id="navigation" class="list">
-    <a href="#" class="item -link">Sign in</a>
-    <a href="#" class="item -link">Sign up</a>
-    <a href="#" class="item -link">Book</a>
+    <a href="#" class="item -link">Trending</a>
+    <a href="#" class="item -link">Book Tickets</a>
     <a href="#" class="item -link">About us</a>
+    <a href="#" class="item -link">Sign in</a>
     <span class="item"><i class="fa fa-search"></i></span>
   </nav>
   <!-- Button to toggle the display menu  -->
