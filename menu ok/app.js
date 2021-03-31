@@ -1,3 +1,5 @@
+import MenuFilm from "./menu.js";
+
 $(document).ready(function(){
     $(window).scroll(function(){
       if(this.scrollY > 20) 
@@ -11,3 +13,4 @@ $(document).ready(function(){
       $(".navbar-menu").toggleClass("active");
     });
   });
+
