@@ -1,6 +1,6 @@
 const $template = document.createElement('template');
 $template.innerHTML = /*html*/`
-<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="../css/menu.css" />
 <link
       href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
@@ -14,7 +14,7 @@ $template.innerHTML = /*html*/`
 <!-- Navbar -->
 <nav class="navbar">
 <div class="inner-width">
-  <a href="/" class="logo"></a>
+  <a href="#" class="logo"></a>
   <button class="menu-toggler">
     <span></span>
     <span></span>
