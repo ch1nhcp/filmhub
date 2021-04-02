@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trending - Filmstation</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section>
+      <nav class="navbar">
+        <div class="inner-width">
+          <a href="../index.html" class="logo"></a>
+          <button class="menu-toggler">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="navbar-menu">
+            <a href="#">Trending</a>
+            <a href="#">Book tickets</a>
+            <a href="#">About Us</a>
+            <a href="#">Sign In</a>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    
+      <section>
+        <div class="container-fluid mt-5 p-8" style="padding:0px 180px;">
+          <div id="movie-content" class="row d-flex justify-content-center" >
+          </div>
+        </div>
+      </section>
+  
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center pb-4">
+          <li class="page-item">
+            <a id="previous" class="btn page-link" tabindex="-1">Previous</a>
+          </li>
+          <li class="page-item">
+            <a id="next" class="btn page-link">Next</a>
+          </li>
+        </ul>
+      </nav>
+      
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
